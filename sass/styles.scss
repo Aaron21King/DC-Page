@@ -1,3 +1,292 @@
-body{
-    background-color: black;
+$color_1: #fff;
+$color_2: white;
+$color_3: #FFFFFF;
+$font-family_1: "Roboto", sans-serif;
+$background-color_1: #690303;
+$background-color_2: #303030;
+$background-color_3: #500b0b;
+$background-color_4: #52160e;
+$background-color_5: white;
+$background-color_6: rgb(90, 14, 14);
+$background-color_7: #1a0907;
+
+/*Portadas*/
+/*---------------------------------------------------*/
+/* estilizar logo y nav */
+/* header nav ul li {
+    float: left;
+} */
+/*Galeria*/
+/* ---- ----- ----- Galeria de Juego ---- ----- ----- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	color: $color_1;
+}
+body {
+	background: url(/img/logo3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada1 {
+	background: url(/img/fondop.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada2 {
+	background: url(/img/jl2portada.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada3 {
+	background: url(/img/sq2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada4 {
+	background: url(/img/flashp.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada5 {
+	background: url(/img/bap.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada6 {
+	background: url(/img/jportada.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada7 {
+	background: url(/img/jldwp.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada9 {
+	background: url(/img/harleyf.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+.portada10 {
+	background: url(/img/joker.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
+}
+header {
+	width: 90%;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-items: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: $background-color_3;
+	padding: 0 16px;
+	border-radius: 6px;
+	background-image: url(/img/footer.jpg);
+	nav {
+		width: 90%;
+		ul {
+			display: flex;
+			justify-content: flex-end;
+			flex-wrap: wrap;
+		}
+	}
+}
+footer {
+	width: 90%;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	background-color: $background-color_1;
+	padding: 25px;
+	color: $color_1;
+	border-radius: 6px;
+	background-color: $background-color_2;
+	background-image: url(/img/footer.jpg);
+	nav {
+		ul {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			text-align: center;
+		}
+	}
+}
+#pagina {
+	width: 90%;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+}
+ul {
+	list-style: none;
+}
+.logo {
+	width: 50px;
+}
+.navLink {
+	a {
+		color: $color_2;
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+	}
+}
+.page {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main {
+	padding: 10px;
+	flex: 3;
+	h1 {
+		background-color: $background-color_4;
+		flex: 1;
+		padding: 5px;
+		color: $color_3;
+		border-radius: 6px;
+		text-align: center;
+		background-image: url(/img/footer.jpg);
+	}
+	.articlesContainer {
+		width: 100%;
+		padding: 20px 0;
+		margin-right: 1.5%;
+	}
+}
+.articlesContainer {
+	article {
+		width: 100%;
+		background-color: $background-color_5;
+		margin-bottom: 1.5%;
+		padding: 15px;
+		border-radius: 6px;
+		background-image: url(/img/footer.jpg);
+		color: $color_2;
+	}
+	h3 {
+		color: $color_2;
+	}
+}
+.sidebar {
+	padding: 5px;
+	background-color: $background-color_6;
+	color: $color_3;
+	border-radius: 6px;
+	height: 50%;
+	margin-bottom: 1.5%;
+	text-align: center;
+	align-items: center;
+	padding: 25px;
+	color: $color_1;
+	border-radius: 6px;
+	background-image: url(/img/footer.jpg);
+	h3 {
+		justify-content: flex-end;
+		flex: 5;
+		padding: 5px;
+		background-color: $background-color_7;
+		color: $color_3;
+		border-radius: 6px;
+		text-align: center;
+	}
+}
+.color1 {
+	li {
+		color: $color_2;
+	}
+}
+h2 {
+	font-weight: 400;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 40px;
+	color: $color_1;
+}
+.galeria {
+	border-radius: 6px;
+}
+.info {
+	display: flex;
+	width: 95%;
+	margin: auto;
+	padding: 40px 0;
+	div {
+		color: $color_1;
+		padding: 10px;
+		span {
+			font-weight: 600;
+		}
+		img {
+			width: 250px;
+			height: 300px;
+		}
+	}
+}
+.texto {
+	color: $color_2;
+}
+.video {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	width: 95%;
+	margin: auto;
+	grid-gap: 10px;
+	padding: 40px 0;
+	iframe {
+		width: 100%;
+		vertical-align: top;
+		height: 315px;
+		min-width: 500px;
+		object-fit: cover;
+	}
+}
+.linea {
+	background: #72050a;
+	height: 5px;
+	width: 100%;
+	display: block;
+}
+.portadami {
+	color: $color_2;
+	background: url(/img/logo3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: $font-family_1;
 }
